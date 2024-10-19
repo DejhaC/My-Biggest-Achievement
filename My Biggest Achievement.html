@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Biggest Achievement</title>
+    <style>
+      body { 
+        font-family: serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200vh;
+        background: linear-gradient(to bottom right, #ffffff, #87CEEB); /* Gradient from white to light blue */;
+        flex-direction: column;
+      }
+      .cloud {
+    position: absolute;
+    background: white;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+#cloud1 {
+    width: 100px;
+    height: 60px;
+    left: -120px;
+    top: 50px;
+}
+
+#cloud2 {
+    width: 150px;
+    height: 80px;
+    left: -150px;
+    top: 200px;
+}
+
+#cloud3 {
+    width: 120px;
+    height: 70px;
+    left: -130px;
+    top: 350px;
+}
+      .content-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        background: linear-gradient(to bottom right, #87CEEB, #4682B4); /* Gradient from light blue to dark blue */
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+      }
+      .text-content {
+        color: white;
+        flex: 1;
+        padding-right: 20px;
+      }
+      h1 {
+        background-color: whitesmoke;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      h2 {
+        background-color: whitesmoke;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: left;
+        font-size: small;
+        flex-direction: column;
+      }
+      p {
+        text-align: center;
+        text-decoration: wavy;
+        text-justify: auto;
+        margin-bottom: 20px;
+      }
+      .image-box {
+        flex: 0 0 40%;
+      }
+      .image-box img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      .image-container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.image {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+h3.rotate {
+    animation: rotate 5s linear infinite; 
+    margin-bottom: 20px; 
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.image-container {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.image-item {
+    text-align: center; /* Center text under images */
+}
+
+.image-item img {
+    width: 200px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow */
+}
+
+.image-item p {
+    margin-top: 10px; /* Space between image and caption */
+}
+.clouds {
+    position: relative;
+}
+
+.cloud {
+    position: absolute;
+    font-size: 3em; /* Size of the cloud emoji */
+    animation: float 8s linear infinite; /* Default animation for floating */
+}
+
+/* Random floating animation */
+@keyframes float {
+    0% {
+        transform: translateY(0) translateX(0); /* Start position */
+        opacity: 1; /* Fully visible */
+    }
+    50% {
+        transform: translateY(-30px) translateX(20px); /* Up and slightly to the right */
+        opacity: 0.7; /* Slightly transparent */
+    }
+    100% {
+        transform: translateY(0) translateX(0); /* Back to start */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Different positions and animation durations for each cloud */
+.cloud:nth-child(1) { 
+    left: 5%; 
+    animation-duration: 8s; 
+}
+.cloud:nth-child(2) { 
+    left: 25%; 
+    animation-duration: 10s; 
+}
+.cloud:nth-child(3) { 
+    left: 50%; 
+    animation-duration: 12s; 
+}
+.cloud:nth-child(4) { 
+    left: 70%; 
+    animation-duration: 9s; 
+}
+.cloud:nth-child(5) { 
+    left: 90%; 
+    animation-duration: 11s; 
+}
+    </style>
+  </head>
+  <body>
+    <div class="content-box"
+    <div class="text-content">
+        <h1>Reaching New Heights, Literally.</h1>
+        <h2>"You'll never see the world by riding in a car."</h2>
+    </div>
+</div>
+<p>
+    Planes. Whew. I never thought in my 28 years of living, that I'd actually board one. I was always a huge car enthusiast...I'd drive to England if I could. But one day, right before my birthday, I had a thought. "Why not get over my fear?" I did the unthinkable when I clicked the purchase button. I bought a non-refundable round-trip ticket to Denver, CO.
+</p>
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/d3/01/67/d3016745975062185b1bad417078e771.jpg" alt="Achievement 1" class="image">
+        <img src="https://i.pinimg.com/736x/6c/9e/64/6c9e642924bfeef2806e403acd97ee85.jpg" alt="Achievement 2" class="image">
+        <img src="https://i.pinimg.com/736x/12/bd/39/12bd397686af00f0e1fc54d36317dd9f.jpg" alt="Achievement 3" class="image">
+    </div>
+    <h3 class="rotate">Why Do People Have a Fear of Planes?</h3>
+    <p>
+        <li>
+            Fear of falling
+        </li>
+        <li>
+            A sense of no control
+        </li>
+        <li>
+            Turbulence and accidents
+        </li>
+    </p>
+    <p>
+        Overcoming my fear of flying was a transformative experience during my trip to Denver. As I boarded the plane, a mix of anxiety and determination filled me. I focused on my breathing and reminded myself of the excitement that awaited me in Denver. With each passing moment, I felt the tension in my body gradually melt away, replaced by a sense of empowerment. When the plane finally took off, I was surprised by the rush of exhilaration that replaced my fear. By the time we landed, I realized I had not only conquered my fear but also opened up a world of possibilities for future adventures.
+    </p>
+            <div class="image-container">
+        <div class="image-item">
+            <img src="https://i.pinimg.com/564x/dc/eb/d1/dcebd17bf5aec1bc06b1dc74312b5cfc.jpg" alt="Meow Wolf">
+            <p>Visited a Trippy Museum</p>
+        </div>
+        <div class="image-item">
+            <img src="https://i.pinimg.com/736x/70/d7/5d/70d75d35772bf15b3b7bf664a8412c48.jpg" alt="Denver Aquarium">
+            <p>Saw the Denver Aquarium</p>
+        </div>
+        <div class="image-item">
+            <img src="https://i.pinimg.com/564x/8f/83/1e/8f831ecc44e334cfcb4e41df55f15ec1.jpg" alt="Denver Airport">
+            <p>Saw the Controversial Denver Airport</p>
+        </div>
+        <div class="image-item">
+            <img src="https://i.pinimg.com/736x/3c/be/48/3cbe489cd8c05a90b0e7f3b44c5e1067.jpg" alt="Denver Mountain">
+            <p>We Even Saw Mountains!</p>
+        </div>
+    </div>
+        <div class="clouds">
+        <span class="cloud">☁️</span>
+        <span class="cloud">☁️</span>
+        <span class="cloud">☁️</span>
+        <span class="cloud">☁️</span>
+        <span class="cloud">☁️</span>
+    </div>
+  </body>
+</html>
